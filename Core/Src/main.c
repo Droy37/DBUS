@@ -133,16 +133,7 @@ void dataProcess(const uint8_t pData[18]) {
 
 
 
-void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size) {
-  if (huart == &huart1) {
-    HAL_UARTEx_ReceiveToIdle_DMA(&huart1, buffer, sizeof(buffer));
-    for(int i = 0; i < 18; i++) {
-      data[i] = buffer[i];
-    }
 
-    dataProcess(data);
-  }
-}
 
 
 /* USER CODE END 0 */

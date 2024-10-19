@@ -6,6 +6,7 @@
 "dbus_test\usart.o"
 "dbus_test\stm32f4xx_it.o"
 "dbus_test\stm32f4xx_hal_msp.o"
+"dbus_test\callback.o"
 "dbus_test\stm32f4xx_hal_tim.o"
 "dbus_test\stm32f4xx_hal_tim_ex.o"
 "dbus_test\stm32f4xx_hal_uart.o"
