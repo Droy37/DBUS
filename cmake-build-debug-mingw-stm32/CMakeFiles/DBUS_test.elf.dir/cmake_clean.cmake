@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DBUS_test.elf.dir/Core/Src/a.c.obj"
+  "CMakeFiles/DBUS_test.elf.dir/Core/Src/a.c.obj.d"
   "CMakeFiles/DBUS_test.elf.dir/Core/Src/callback.c.obj"
   "CMakeFiles/DBUS_test.elf.dir/Core/Src/callback.c.obj.d"
   "CMakeFiles/DBUS_test.elf.dir/Core/Src/dma.c.obj"

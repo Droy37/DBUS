@@ -128,6 +128,30 @@ DBUS_test.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DBUS_test.elf.dir\build.make CMakeFiles/DBUS_test.elf.dir/build
 .PHONY : DBUS_test.elf/fast
 
+Core/Src/a.obj: Core/Src/a.c.obj
+.PHONY : Core/Src/a.obj
+
+# target to build an object file
+Core/Src/a.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DBUS_test.elf.dir\build.make CMakeFiles/DBUS_test.elf.dir/Core/Src/a.c.obj
+.PHONY : Core/Src/a.c.obj
+
+Core/Src/a.i: Core/Src/a.c.i
+.PHONY : Core/Src/a.i
+
+# target to preprocess a source file
+Core/Src/a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DBUS_test.elf.dir\build.make CMakeFiles/DBUS_test.elf.dir/Core/Src/a.c.i
+.PHONY : Core/Src/a.c.i
+
+Core/Src/a.s: Core/Src/a.c.s
+.PHONY : Core/Src/a.s
+
+# target to generate assembly for a file
+Core/Src/a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DBUS_test.elf.dir\build.make CMakeFiles/DBUS_test.elf.dir/Core/Src/a.c.s
+.PHONY : Core/Src/a.c.s
+
 Core/Src/callback.obj: Core/Src/callback.c.obj
 .PHONY : Core/Src/callback.obj
 
@@ -769,6 +793,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DBUS_test.elf
+	@echo ... Core/Src/a.obj
+	@echo ... Core/Src/a.i
+	@echo ... Core/Src/a.s
 	@echo ... Core/Src/callback.obj
 	@echo ... Core/Src/callback.i
 	@echo ... Core/Src/callback.s
